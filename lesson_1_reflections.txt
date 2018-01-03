@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I din't have to review the whole code to find the bug. It was much quicker 
+    looking only at the lines where any changes occured and find the incorrect input.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You could: 
+    - see how you conquered some problems in the past, 
+    - restore the old version of code when you decide it was better then the change
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: you can commit new code/bug fix each time it consists of consistent
+    changes, logically coherent; you don't create too much commits if the changes 
+    were too small
+    Cons: Commit might be forgotten after important change; programmer might 
+    incorrectly decide how to partition the changees for commit causing too big
+    or too small chunks of code put as commit
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Very often when coding new function and making a change it involves 
+    multiple files to be change at once, so treating multiple files as one 
+    commit is logical choice to keep track of all differences. On the other hand,
+    some systems, like Google Docs, don't treat multiple files as a whole, allowing
+    you to only trace changes in one file. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Command git log shows the list of all commits in the log with their attached 
+    messages describing the changes. We can choose which commit we wan to 
+    compare and using their IDs we can see the differences between them.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Even if you introduce new bugs to a program, you can always restore previous 
+    version of the code. If the bug was not cought right away, you can compare 
+    various different versions to establish, which one had it coded. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    After this course is finished, I could use Git to store versions of my 
+    Android apps codes. 
