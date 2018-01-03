@@ -40,5 +40,12 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	We merge the files that differ, which means we keep the new lines of code 
+	and remove the ones that have changed in any of the branch. The name of the 
+	branch that we merged into (e.g. master) is the name that is set as merged 
+	branch. Diagram shows the merging as a new node - it tells that this is new 
+	commit, it has more than one parent and what branches were used to make this 
+	merge.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
