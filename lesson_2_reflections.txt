@@ -7,17 +7,21 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 	The staging area contains only the files we would like to commit to a 
-	repository. That means it doesn't have to include all the files 
+	repository. That means we don't have to include all the files 
 	available in working directory, only those which we would like to make a 
 	part of next commit. These files are not yet commited, so they are not yet
 	part of the repository. Thanks to those characteristics, we can choose
 	which files should become a part of new commit and which ones can be added
 	sometime in the future. Also we can wait until we have all logicaly 
-	coherent files ready to commit and store until then only some files, 
+	coherent files ready to commit and store in staging area only some files, 
 	having possibility to add more before sending a commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	Before you add new updates/files to repository, you add them to a 
+	staging area. That means you can first choose which files will be added in 
+	new commit and gather all the files that contain only one logical change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
