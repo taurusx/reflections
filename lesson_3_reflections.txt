@@ -51,5 +51,10 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    You can make changes to a separate branch when you want to have the base 
+    code up to date, if any changes occured on the master branch. Then you 
+    would know if there would be any conflicts with your branch and its new 
+    feature or update. In this situation you can still keep your branch 
+    unmerged and make pull requests or have somebody review your code before 
+    commiting it to a master branch. 
     
